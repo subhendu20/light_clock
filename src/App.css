@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+
+
+.app{
+  height: 100vh;
+  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.canvas{
+  width: 700px;
+  height: 30vh;
+  
+  border-radius: 30px;
+  font-family: 'Orbitron', sans-serif;
+  color: gray;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#clock{
+  
+  
+  width: 100%;
+  display: flex;
+  
+  justify-content: space-between;
+  padding-left: 5%;
+  
+  align-items: center;
+  color: yellowgreen;
+  text-shadow: 0 0 10px yellowgreen;
+
+}
+#def-clock{
+  opacity: 0.4;
+  display: flex;
+  justify-content: center;
+  padding-left: 3%;
+}
+/* #clock p{
+  width: 30%;
+  text-align: center;
+  border: 1px solid wheat;
+} */
